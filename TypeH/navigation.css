@@ -1,0 +1,728 @@
+#I {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.8%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I2 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I4 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I3 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I6 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I5 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I8 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I7 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I10 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I9 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I12 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I11 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I14 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I13 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I16 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I15 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I18 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I17 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I20 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I19 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I22 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I21 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I24 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I23 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I26 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I25 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I28 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I27 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I30 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I29 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I32 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I31 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I34 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I33 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+#I36 {
+    width:4.6%;
+    height:8%;
+    position:absolute;
+    margin:-0.5%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+#I35 {
+    width:4.6%;
+    height:8%;
+    border: 2px solid #213f99;
+    position:absolute;
+    margin:0.4%;
+    margin-left:-6.5%;
+    text-align: center;
+}
+
+/**navi**/
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #fff100;  
+}
+
+home:hover {
+    text-decoration: none;
+    background-color: transparent;  
+}
+
+.square {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+    
+}
+
+.square:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-two {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    margin-top:3%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-two:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-three {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    margin-top:6%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-three:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-four {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    margin-top:9%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-four:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-five {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    margin-top:12%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-five:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-six {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    margin-top:15%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-six:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-seven {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    margin-top:18%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-seven:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-eight {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    margin-top:21%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-eight:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-eight {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    margin-top:21%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-eight:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-nine {
+    width: 1%;
+    height:1%;
+    margin-left:2%;
+    margin-top:24%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-nine:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-ten {
+    width: 1%;
+    height:1%;
+    margin-left:6%;
+    margin-top:0%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-ten:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-eleven {
+    width: 1%;
+    height:1%;
+    margin-left:6%;
+    margin-top:3%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-eleven:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-twelve {
+    width: 1%;
+    height:1%;
+    margin-left:6%;
+    margin-top:6%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-twelve:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-thirteen {
+    width: 1%;
+    height:1%;
+    margin-left:6%;
+    margin-top:9%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-thirteen:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-fourteen {
+    width: 1%;
+    height:1%;
+    margin-left:6%;
+    margin-top:12%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-fourteen:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-fifteen {
+    width: 1%;
+    height:1%;
+    margin-left:6%;
+    margin-top:15%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-fifteen:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-sixteen {
+    width: 1%;
+    height:1%;
+    margin-left:6%;
+    margin-top:18%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-sixteen:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-seventeen {
+    width: 1%;
+    height:1%;
+    margin-left:6%;
+    margin-top:21%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-seventeen:hover {
+  width: 3%;
+  height: 2%;
+}
+
+.square-eighteen {
+    width: 1%;
+    height:1%;
+    margin-left:6%;
+    margin-top:24%;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    
+    transition: 
+    /* step 1 */
+    width      1s,
+    /* step 2 */
+    background 0.5s 1s;
+}
+
+.square-eighteen:hover {
+  width: 3%;
+  height: 2%;
+}
+
