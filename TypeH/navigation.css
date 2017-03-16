@@ -6,10 +6,12 @@
     margin:.5%;
     margin-left:-6.5%;
     text-align: center;
+
 }
 
 .I h2 {
-    margin-top: .5em; /*spacing down the text on all H2s inside the I class*/
+    margin-top: .4em; /*spacing down the text on all H2s inside the I class*/
+    font-size: 2em;
 }
 
 
@@ -40,9 +42,7 @@ nav { /*fixing container instead of each div, allowing numbers to be positioned 
 }
 
 .square {
-    width: 5%;
-    height:5%;
-    padding:10px;
+    padding:5px;
     text-align: center;
     transition: 
     /* step 1 */
@@ -62,7 +62,7 @@ nav { /*fixing container instead of each div, allowing numbers to be positioned 
   height: 2%;
 }
 
-@media (min-width: 600px) { 
+@media (min-width: 900px) { 
 
     nav { /*fixing container instead of each div, allowing numbers to be positioned relatively in columns*/
         margin-left:2%;
@@ -73,8 +73,7 @@ nav { /*fixing container instead of each div, allowing numbers to be positioned 
     }
 
     .square {    
-        width: 1%;
-        height:1%;s
+
     }
 
 }

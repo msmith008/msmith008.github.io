@@ -1,20 +1,48 @@
 * { box-sizing: border-box; } 
 
-.box {
-/*    height:42vh; not sure what this does except confuse your spacing between title and intro quote.
-*/	margin-left: 26%;
-	margin-right: auto;
-
+body {
+    margin-right: 5%;
 }
+
+.col {
+    margin-left: 15%;
+	margin-right: auto;
+    margin-top: 3em;
+    margin-top: 1em;
+}
+
+
+
+.sq {
+    margin-top: 4em;
+    margin-left: 10%;
+    margin-right: 2em;
+    background-color: #fff100;
+    border-right: solid 4em #fff100;
+    border-bottom: solid 4em white; /*the effect this makes was an accident, but looks cool. I'm sure you can keep playing here to position the box and text.*/
+}
+
+.sq h1 {
+    margin-left: -10%;
+    padding-top: 1.5em;
+}
+
+
 
 h1 { 
     font-family: 'Karla', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
+    color:#213f99;
+
+}
+
+h2 {
+    font-family: 'Karla', sans-serif; 
     color:#213f99;
 }
 
 header h1 {
-    font-size: 60px;
+    font-size: 30px;
 }
 
 header p { /*styling the author name*/
@@ -27,592 +55,23 @@ p {
     font-size:14px;
 }
 
-
-/** columns **/
-
-[class*='col-1'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-}
-
-[class*='col-2'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    margin-top:9%;
-}
-
-[class*='col-3'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:100vh;
-    column-count: 2;
-    column-gap: 40px;
-}
-
-[class*='col-4'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    
-}
-
-[class*='col-5'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:100vh;
-    column-count: 2;
-    column-gap: 40px;
-}
-
-[class*='col-6'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:15vh;
-    margin-top: -1%;
-    
-}
-[class*='col-7'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:50vh;
-    column-count: 2;
-    column-gap: 40px;
-    margin-top: 1%;
-}
-
-[class*='col-8'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    margin-top:10%;
-    
-}
-
-[class*='col-9'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:100vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-[class*='col-10'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:15vh;
-    margin-top: 2%;
-    
-}
-[class*='col-11'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:30vh;
-    column-gap: 40px;
-    margin-top: 1%;
-}
-
-[class*='col-12'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-}
-
-[class*='col-13'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:100vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-[class*='col-14'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-}
-
-[class*='col-15'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:100vh;
-    column-count: 2;
-    column-gap: 40px;
-}
-[class*='col-16'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-}
-
-[class*='col-17'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:100vh;
-    column-count: 2;
-    column-gap: 40px;
-}
-
-[class*='col-18'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:25vh;
-}
-
-[class*='col-19'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:100vh;
-    column-count: 2;
-    column-gap: 40px;
-}
-
-[class*='col-20'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:15vh;
-}
-
-[class*='col-21'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:100vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-
-[class*='col-22'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:25vh;
-}
-
-[class*='col-23'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:100vh;
-    column-count: 2;
-    column-gap: 40px;
-}
-
-[class*='col-24'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:20vh;
-}
-
-[class*='col-25'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:100vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-
-[class*='col-26'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:27vh;
-}
-
-[class*='col-27'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:100vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-
-[class*='col-28'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:16.5vh;
-}
-
-[class*='col-29'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:100vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-
-[class*='col-30'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:30vh;
-    break-inside: avoid;
-}
-
-[class*='col-31'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:100vh;
-    column-count: 2;
-    column-gap: 40px;
-}
-
-[class*='col-32'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:30vh;
-}
-
-[class*='col-33'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:100vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-
-[class*='col-34'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:23vh;
-}
-
-[class*='col-35'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:100vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-[class*='col-36'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:25vh;
-}
-
-[class*='col-37'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:45vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-[class*='col-38'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 15%;
-    height:100vh;
-    column-count: 3;
-    column-gap: 40px;
-}
-
-[class*='col-39'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:30vh;
-    
-}
-
-[class*='col-40'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:75vh;
-    column-count: 2;
-    column-gap: 40px;
-}
-
-[class*='col-41'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    margin-top: -5%;
-    height:33vh;
-    
-}
-
-[class*='col-42'] {
-	float: left;
-	padding-left: .75em;
-	padding-right: .75em;
-    margin-left: 25%;
-    height:100vh;
-    column-count: 2;
-    column-gap: 40px;
-    margin-top: 1%;
-}
-
-/** yellow!! **/
-
-#sq {
-    width:45%;
-    height:25%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-1.5%;
-}
-#sq2 {
-    width:40%;
-    height:15%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-0.5%;
-}
-
-#sq3 {
-    width:40%;
-    height:30%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-2%;
-}
-
-#sq4 {
-    width:40%;
-    height:25%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-1%;
-}
-
-#sq5 {
-    width:40%;
-    height:18%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-1%;
-}
-
-#sq6 {
-    width:40%;
-    height:14%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-1.2%;
-}
-
-#sq7 {
-    width:40%;
-    height:18%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-1%;
-}
-
-#sq8 {
-    width:40%;
-    height:25%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-1.9%;
-}
-
-#sq9 {
-    width:40%;
-    height:30%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-1%;
-}
-
-#sq10 {
-    width:40%;
-    height:30%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:6%;
-    margin-top:-2%;
-}
-
-#sq11 {
-    width:40%;
-    height:35%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:7%;
-    margin-top:-2%;
-}
-
-#sq12 {
-    width:42%;
-    height:25%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:7%;
-    margin-top:-2%;
-}
-
-#sq13 {
-    width:40%;
-    height:20%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-2%;
-}
-
-#sq14 {
-    width:40%;
-    height:20%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-2%;
-}
-
-#sq15 {
-    width:40%;
-    height:20%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-2%;
-}
-
-#sq16 {
-    width:40%;
-    height:20%;
-    background-color:#fff100;
-    position: absolute;
-    z-index: -1;
-    margin-left:5%;
-    margin-top:-2%;
+blockquote {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+    font-family: 'Karla', sans-serif;
+    color: #213f99;
+    font-size: 12px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 1.5em;
 }
 
 
-/** other stuff? **/
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12, 
-.col-13,
-.col-14,
-.col-15,
-.col-16,
-.col-17,
-.col-18,
-.col-19,
-.col-20,
-.col-21,
-.col-22,
-.col-23,
-.col-24,
-.col-25,
-.col-26,
-.col-27,
-.col-28,
-.col-29,
-.col-30,
-.col-31,
-.col-32,
-.col-33,
-.col-34,
-.col-35,
-.col-36,
-.col-37,
-.col-38,
-.col-39,
-.col-40,
-.col-41,
-.col-42 { width: 100%;}
+
 
 
 
@@ -621,63 +80,17 @@ p {
 
 
 @media (min-width: 600px) {
-	
 
 
-	.col-1  { width: calc( 100% / 9 * 1 );}
-	.col-2  { width: calc( 100% / 9 * 2 );}
-	.col-3  { width: calc( 100% / 9 * 3 );}
-	.col-4  { width: calc( 100% / 9 * 4 );}
-	.col-5  { width: calc( 100% / 9 * 5 );}
-	.col-6  { width: calc( 100% / 9 * 6 );}
-	.col-7  { width: calc( 100% / 9 * 7 );}
-	.col-8  { width: calc( 100% / 9 * 8 );}
-	.col-9  { width: calc( 100% / 9 * 9 );}
-	.col-10 { width: calc( 100% / 9 * 10 );}
-	.col-11 { width: calc( 100% / 9 * 11 );}
-	.col-12 { width: calc( 100% / 9 * 12 );}
-    .col-13 { width: calc( 100% / 9 * 13 );}
-	.col-14 { width: calc( 100% / 9 * 14 );}
-	.col-15 { width: calc( 100% / 9 * 15 );}
 
+    header h1 {
+    font-size: 60px;
+    }
 
-	/** offsets **/
+    h1 {
+    font-size: 2em;
 
-	.col-offset-1  { margin-left: calc( 100% / 12 * 1 );}
-	.col-offset-2  { margin-left: calc( 100% / 12 * 2 );}
-	.col-offset-3  { margin-left: calc( 100% / 12 * 4 );}
-	.col-offset-4  { margin-left: calc( 100% / 12 * 4 );}
-	.col-offset-5  { margin-left: calc( 100% / 12 * 5 );}
-	.col-offset-6  { margin-left: calc( 100% / 12 * 6 );}
-	.col-offset-7  { margin-left: calc( 100% / 12 * 7 );}
-	.col-offset-8  { margin-left: calc( 100% / 12 * 8 );}
-	.col-offset-9  { margin-left: calc( 100% / 12 * 9 );}
-	.col-offset-10 { margin-left: calc( 100% / 12 * 10 );}
-	.col-offset-11 { margin-left: calc( 100% / 12 * 11 );}
-	.col-offset-12 { margin-left: calc( 100% / 12 * 12 );}
-	
-
-
-	.row {
-		margin-left: -.75em;
-		margin-right: -.75em;
-	}
-
-	.cf::after,
-	.clearfix.after,
-	.row::after {
-		content: ' ' ;
-		display: table;
-		clear:both;
-	}	
-	
-	.container {
-
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-
-	}
+    }
     
     
 }
@@ -686,66 +99,37 @@ p {
 
 @media (min-width: 900px) {
 
-	.col-1  { width: calc( 100% / 12 * 6 );}
-	.col-2  { width: calc( 100% / 12 * 6 );}
-	.col-3  { width: calc( 100% / 12 * 6 );}
-	.col-4  { width: calc( 100% / 12 * 6 );}
-	.col-5  { width: calc( 100% / 12 * 6 );}
-	.col-6  { width: calc( 100% / 12 * 6 );}
-	.col-7  { width: calc( 100% / 12 * 6 );}
-	.col-8  { width: calc( 100% / 12 * 6 );}
-	.col-9  { width: calc( 100% / 12 * 9 );}
-	.col-10 { width: calc( 100% / 12 * 6 );}
-	.col-11 { width: calc( 100% / 12 * 6 );}
-	.col-12 { width: calc( 100% / 12 * 6 );}
-    .col-13  { width: calc( 100% / 12 * 9 );}
-	.col-14  { width: calc( 100% / 12 * 6 );}
-    .col-15  { width: calc( 100% / 12 * 6 );}
-	.col-16  { width: calc( 100% / 12 * 6 );}
-    .col-17  { width: calc( 100% / 12 * 6 );}
-	.col-18  { width: calc( 100% / 12 * 6 );}
-    .col-19  { width: calc( 100% / 12 * 6 );}
-	.col-20  { width: calc( 100% / 12 * 6 );}
-    .col-21  { width: calc( 100% / 12 * 9 );}
-	.col-22  { width: calc( 100% / 12 * 6 );}
-    .col-23  { width: calc( 100% / 12 * 6 );}
-    .col-24  { width: calc( 100% / 12 * 6 );}
-    .col-25  { width: calc( 100% / 12 * 9 );}
-    .col-26  { width: calc( 100% / 12 * 6 );}
-    .col-27  { width: calc( 100% / 12 * 9 );}
-    .col-28  { width: calc( 100% / 12 * 6 );}
-    .col-29  { width: calc( 100% / 12 * 9 );}
-    .col-30  { width: calc( 100% / 12 * 6 );}
-    .col-31  { width: calc( 100% / 12 * 6 );}
-    .col-32  { width: calc( 100% / 12 * 9 );}
-    .col-33  { width: calc( 100% / 12 * 9 );}
-    .col-34  { width: calc( 100% / 12 * 9 );}
-    .col-35  { width: calc( 100% / 12 * 9 );}
-    .col-36  { width: calc( 100% / 12 * 9 );}
-    .col-37  { width: calc( 100% / 12 * 9 );}
-    .col-38  { width: calc( 100% / 12 * 9 );}
-    .col-39  { width: calc( 100% / 12 * 6 );}
-    .col-40  { width: calc( 100% / 12 * 6 );}
-    .col-41  { width: calc( 100% / 12 * 6 );}
-    .col-42  { width: calc( 100% / 12 * 6 );}
-    .box { width: calc( 100% / 12 * 6 );}
-    
+    .col { width: 50%;} 
 
+    .col {
+        margin-left: 25%;
+    }
 
-	/** offsets **/
+    .wide {
+        width: 75%;
+/*        margin-left:20%;
+*/    }
 
-	.col-offset-1  { margin-left: calc( 100% / 12 * 1 );}
-	.col-offset-2  { margin-left: calc( 100% / 12 * 2 );}
-	.col-offset-3  { margin-left: calc( 100% / 12 * 3 );}
-	.col-offset-4  { margin-left: calc( 100% / 12 * 4 );}
-	.col-offset-5  { margin-left: calc( 100% / 12 * 5 );}
-	.col-offset-6  { margin-left: calc( 100% / 12 * 6 );}
-	.col-offset-7  { margin-left: calc( 100% / 12 * 7 );}
-	.col-offset-8  { margin-left: calc( 100% / 12 * 8 );}
-	.col-offset-9  { margin-left: calc( 100% / 12 * 9 );}
-	.col-offset-10 { margin-left: calc( 100% / 12 * 10 );}
-	.col-offset-11 { margin-left: calc( 100% / 12 * 11 );}
-	.col-offset-12 { margin-left: calc( 100% / 12 * 12 );}
+    .two { /*makes section 2 column when screen is wide enough.*/
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+    }
+
+    .two p {
+        margin-top: 0;
+    }
+
+    .three {
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+    }
+
+    .three p {
+        margin-top: 0;
+    }
+
 
 }
 
