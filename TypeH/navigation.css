@@ -37,14 +37,11 @@ home:hover {
 nav { /*fixing container instead of each div, allowing numbers to be positioned relatively in columns*/
     margin-left:2%;
     position: fixed;
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
 }
 
 .square {
-    width: 1%;
-    height:1%;
+    width: 5%;
+    height:5%;
     padding:10px;
     text-align: center;
     transition: 
@@ -65,4 +62,19 @@ nav { /*fixing container instead of each div, allowing numbers to be positioned 
   height: 2%;
 }
 
+@media (min-width: 600px) { 
 
+    nav { /*fixing container instead of each div, allowing numbers to be positioned relatively in columns*/
+        margin-left:2%;
+        position: fixed;
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+    }
+
+    .square {    
+        width: 1%;
+        height:1%;s
+    }
+
+}
