@@ -44,11 +44,6 @@ nav { /*fixing container instead of each div, allowing numbers to be positioned 
 .square {
     padding:5px;
     text-align: center;
-    transition: 
-    /* step 1 */
-    width      1s,
-    /* step 2 */
-    background 0.5s 1s;
     font-family: 'Karla', sans-serif; /*adding font to nav without spans*/
     color:#213f99;
 }
@@ -67,9 +62,9 @@ nav { /*fixing container instead of each div, allowing numbers to be positioned 
     nav { /*fixing container instead of each div, allowing numbers to be positioned relatively in columns*/
         margin-left:2%;
         position: fixed;
-        -webkit-column-count: 2; /* Chrome, Safari, Opera */
-        -moz-column-count: 2; /* Firefox */
-        column-count: 2;
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
     }
 
     .square {    
